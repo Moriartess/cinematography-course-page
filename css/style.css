@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1440px;
+}
+
+.main-logo {
+    width: 112px;
+    height: 66px;
+    margin-left: 121px;
+    margin-top: 21px;
+}
+
+.course-details {
+    display: flex;
+    margin: 100px 0px 29px 121px;
+}
+
+.globe-img  {
+    display: inline-block;
+}
+
+.clock-img  {
+    display: inline-block;
+}
+
+.calendar-img  {
+    display: inline-block;
+}
+
+.globe-img img {
+    width: 22px;
+    height: 21px;
+}
+
+.clock-img img {
+    width: 22px;
+    height: 22px;
+}
+
+.calendar-img img {
+    width: 22px;
+    height: 22px;
+}
+
+.course-details p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    width: 130px;
+    height: 32px;
+    display: inline-block;
+}
+
+.header-section {
+    margin-left: 122px;
+    display: flex;
+    margin-bottom: 67.62px;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 81.11px;
+    width: 628px;
+    height: 190px;
+    margin-right: 140px;
+}
+
+.header-section p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    width: 414px;
+    height: 62px;
+}
+
+.main-img-wrapper img {
+    width: 305px;
+    height: 376px;
+}
+
+.quote {
+    background-color: #1E4681;
+    color: #FFFFFF;
+    height: 200.02px;
+    width: 483.63px;
+    border-radius: 5px;
+    font-family: 'Roboto Slab', serif;
+    margin: 0 auto 173.72px;
+}
+
+.quote-container {
+    margin: 0;
+}
+
+.quote-text {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    line-height: 32.5px;
+    padding: 19.26px 27.02px 0px 26.03px;
+}
+
+.quote-author {
+    /*text-align: right;*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: right;
+    margin: 8px 18.52px 0px 0px;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;
+    line-height: 55.76px;
+}
+
+.course-stats {
+    background-color: #EFEFEF;
+    width: 100vw;
+}
+
+.course-stats-content {
+    width: 1440px;
+}
+
+.review {
+    margin-left: 126px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 791px;
+    height: 451px;
+}
+
+.review p {
+    padding: 40px 46px 10px 45px;
+}
+
+.review-author-container {
+    display: flex;
+    width: 573px;
+    height: 169px;
+    margin: 0px 192px 29px 26px;
+}
+
+.user-avatar-wrapper img {
+    width: 190px;
+    height: 169px;
+}
+
+.fb-logo-wrapper img {
+    width: 32px;
+    height: 31px;
+}
+
+.review-author {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30.42px;
+}
+
+.author-container {
+    align-self: center;
+}
+
+.course-finished {
+    margin-left: 122px;
+    padding:  91px 0px 34px 0px;
+}
+
+.course-start {
+    background-color: #9DC9C8;
+    width: 100vw;
+}
+
+.course-start-content {
+    width: 1440px;
+    margin-left: 122px;
+}
+
+footer {
+    background-color: black;
+    color: #FFFFFF;
+}
+
