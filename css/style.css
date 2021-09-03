@@ -19,12 +19,17 @@
     margin: 100px 0px 29px 121px;
 }
 
+.course-details-entity:nth-child(1) {
+    margin-right: 25px;
+}
+
 .globe-img  {
     display: inline-block;
 }
 
 .clock-img  {
     display: inline-block;
+    margin-right: 10px;
 }
 
 .calendar-img  {
@@ -34,16 +39,19 @@
 .globe-img img {
     width: 22px;
     height: 21px;
+    margin-right: 4px;    
 }
 
 .clock-img img {
     width: 22px;
     height: 22px;
+    margin-right: -4px;  
 }
 
 .calendar-img img {
     width: 22px;
     height: 22px;
+    margin-right: 9px;
 }
 
 .course-details p {
@@ -121,6 +129,203 @@ h2 {
     line-height: 55.76px;
 }
 
+.about-course {
+    margin-left: 121px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about-course h2 {
+    width: 365px;
+    height: 93px;
+    margin-bottom: 18px;
+}
+
+.about-main {
+    display: flex;
+}
+
+.about-paragraph {
+    font-size: 24px;
+    line-height: 36px;
+    width: 662px;
+    height: 374px;
+    margin: 0 190px 116px 0;
+}
+
+.about-main-pic-wrapper img {
+    width: 314px;
+    height: 315px;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.about-sec {
+    display: flex;
+}
+
+.about-sec-pic-wrapper img {
+    width: 232px;
+    height: 203px;
+    margin-bottom: 178px;
+    margin-right: 132px;
+}
+
+.about-sec-entity {
+    padding-top: 70px;
+}
+
+.about-sec-entity:nth-child(2) {
+    margin-right: 95px;
+}
+
+.about-sec-entity:nth-child(3) {
+    margin-right: 93px;
+}
+
+.about-sec-entity h4 {
+    width: 150px;
+    height: 39px;
+    font-size: 25px;
+    line-height: 32.5px;
+}
+
+.about-sec-entity p {
+    width: 150px;
+    height: 39px;
+    font-size: 18px;
+    line-height: 23.4px;
+}
+
+.format h2 {
+    font-size: 55px;
+    line-height: 55.76px;
+    width: 667px;
+    height: 93px;
+    margin: 0 0 89px 121px;
+}
+
+.format {
+    font-family: 'Roboto', sans-serif;
+}
+
+.format-details-wrapper {
+    margin: 0 0 179px 122px;
+    display: flex;
+}
+
+.format-details {
+    height: 109px;
+}
+
+.format-details:nth-child(1) {
+    width: 223px;
+    margin-right: 122px;
+}
+
+.format-details:nth-child(2) {
+    width: 271px;
+    margin-right: 113px;
+}
+
+.format-details:nth-child(3) {
+    width: 245px;
+}
+
+.format-details h4 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32.5px;
+    height: 39px;
+    color: #1E4681;
+}
+
+.format-details p {
+    font-size: 18px;
+    line-height: 23.4px;
+    height: 39px;
+}
+
+.course-content {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 248px;
+}
+
+.course-content h2 {
+    margin: 0 0 21px 121px;
+    width: 667px;
+    height: 93px;
+}
+
+.course-content ul {
+    margin-left: 138px;
+    width: 662px;
+    height: 374px;
+}
+
+.course-program {
+    font-family: 'Roboto', sans-serif;
+}
+
+.course-program h2 {
+    font-size: 55px;
+    line-height: 55.76px;
+    width: 905px;
+    height: 93px;
+    margin: 0 0 95px 121px;
+}
+
+.program-entities-wrapper {
+    margin-left: 84px;
+    margin-bottom: 76px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.program-entity {
+    width: 399px;
+    height: 328px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-right: 37px;
+}
+
+.program-entity:nth-child(-n+3) {
+    margin-bottom: 41px;
+}
+
+.program-entity:nth-child(n+4) {
+    margin-bottom: 45px;
+}
+
+.program-entity h4 {
+    font-size: 30px;
+    line-height: 39px;
+    width: 365px;
+    margin: 11px 14px 32px 20px;
+}
+
+.program-entity:nth-child(8) h4 {
+    margin-bottom: -1px;
+}
+
+.program-pic-wrapper img {
+    width: 399px;
+    height: 160px;
+}
+
+.program-paragraph {
+    width: 365px;
+    height: 63px;
+    margin: 0 15px 23px 19px;
+}
+
+.program-paragraph p {
+    font-size: 25px;
+    line-height: 32.5px;
+}
+
 .course-stats {
     background-color: #EFEFEF;
     width: 100vw;
@@ -128,6 +333,13 @@ h2 {
 
 .course-stats-content {
     width: 1440px;
+    padding-bottom: 111px;
+}
+
+.course-stats-content h2 {
+    margin-left: 122px;
+    padding:  91px 0px 34px 0px;
+    height: 93px;
 }
 
 .review {
@@ -142,20 +354,27 @@ h2 {
     height: 451px;
 }
 
-.review p {
-    padding: 40px 46px 10px 45px;
+.review-text {
+    padding: 40px 46px 8px 52px;
+    height: 203px;
 }
 
 .review-author-container {
     display: flex;
     width: 573px;
     height: 169px;
-    margin: 0px 192px 29px 26px;
+    margin: 0 0 29px 26px;
+    /*margin: 0px 192px 29px 26px;*/
+}
+
+.user-avatar-wrapper {
+    margin-right: 30px;
 }
 
 .user-avatar-wrapper img {
     width: 190px;
     height: 169px;
+    
 }
 
 .fb-logo-wrapper img {
@@ -163,20 +382,18 @@ h2 {
     height: 31px;
 }
 
-.review-author {
+.author-container p {
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
     font-size: 30px;
     line-height: 30.42px;
+    width: 353px;
+    height: 59px;
+    text-align: left;
 }
 
 .author-container {
     align-self: center;
-}
-
-.course-finished {
-    margin-left: 122px;
-    padding:  91px 0px 34px 0px;
 }
 
 .course-start {
@@ -187,6 +404,52 @@ h2 {
 .course-start-content {
     width: 1440px;
     margin-left: 122px;
+    padding-top: 179px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 185px;
+}
+
+.course-start-content h2 {
+    height: 66px;
+    margin-bottom: 54px;
+}
+
+.cost-text {
+    font-size: 25px;
+    line-height: 25.35px;
+    width: 170px;
+    height: 32px;
+}
+
+.cost-value {
+    font-size: 80px;
+    line-height: 81.11px;
+    width: 481px;
+    height: 153px;
+}
+
+.ad-container {
+    display: flex;
+}
+
+.advert {
+    margin-right: 70px;
+}
+
+.advert h4 {
+    font-size: 25px;
+    line-height: 25.35px;
+    height: 32px;
+    font-weight: 500;
+    margin-bottom: 9px;
+}
+
+.advert p {
+    font-size: 18px;
+    line-height: 18.25px;
+    height: 70px;
+    width: 294px;
+    font-weight: 500;
 }
 
 footer {
@@ -194,3 +457,80 @@ footer {
     color: #FFFFFF;
 }
 
+
+.footer-container {
+    margin: 0 0 0 122px;
+    font-family: 'Roboto', sans-serif;
+    padding: 50px 0 23px 0;
+}
+
+.footer-main-content {
+    display: flex;
+}
+
+.logo-footer {
+    width: 115px;
+    height: 68px;
+    margin: 0 739px 25px 0;
+}
+
+.insta-logo {
+    width: 33px;
+    height: 33px;
+    margin-right: 18px;
+}
+
+.fb-logo {
+    width: 32px;
+    height: 32px;
+    margin-right: 21px;
+}
+
+.vk-logo {
+    width: 35px;
+    height: 35px;
+    margin-right: 25px;
+}
+
+.viber-logo {
+    width: 34px;
+    height: 34px;
+}
+
+.contacts {
+    display: inline-block;
+}
+
+.contacts-icon {
+    margin-right: 22px;
+}
+
+.contacts-wrapper p{
+    font-size: 25px;
+    line-height: 25.35px;
+    margin-top: 9px;
+    margin-bottom: 3px;
+    height: 40px;
+}
+
+.phone-icon {
+    width: 27px;
+    height: 27px;
+}
+
+.email-icon {
+    width: 27px;
+    height: 18px;
+}
+
+.social {
+    display: flex;
+    margin-bottom: 141px;
+}
+
+.copyright {
+    font-size: 18px;
+    line-height: 18.25px;
+    height: 40px;
+    margin: 0;
+}
